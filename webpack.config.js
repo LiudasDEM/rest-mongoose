@@ -1,7 +1,6 @@
 const dev = process.env.NODE_ENV !== 'production'
-const path = require('path')
-const nodeExternals = require('webpack-node-externals')
-
+const path = require('path') // eslint-disable-line @typescript-eslint/no-var-requires
+const nodeExternals = require('webpack-node-externals') // eslint-disable-line @typescript-eslint/no-var-requires
 
 module.exports = {
 	target: 'async-node',
